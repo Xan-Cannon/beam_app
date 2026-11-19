@@ -35,3 +35,7 @@
 - Asked: Check whether the site is live (after turning on GitHub Pages).
   Changed: No project files changed except this entry. Waited for the first Pages deploy to finish, then checked the live site.
   Worked: Yes. https://xan-cannon.github.io/beam_app/ returns 200 and matches the local `index.html` byte for byte. In headless Chrome it loads the W12x26 example (PASSES ALL CHECKS) and shows 6 of 6 validation cases passing.
+
+- Asked: What is my GitHub Pages address?
+  Changed: No project files changed except this entry. Answered: https://xan-cannon.github.io/beam_app/
+  Worked: Yes.
