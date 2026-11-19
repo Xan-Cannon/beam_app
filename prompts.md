@@ -27,3 +27,7 @@
 - Asked: Commit and share publicly on GitHub.
   Changed: Added `.gitignore` (ignores `.DS_Store`; it has to sit at the repo root for git to use it) and made the first commit on `main` with all project files.
   Worked: Partly. The local commit worked. The push did not happen because this machine has no GitHub login (no `gh` CLI, SSH key, or saved credentials), so the public repo and GitHub Pages setup are waiting on the user.
+
+- Asked: Help make it live; fix it.
+  Changed: Found the empty public repo `Xan-Cannon/beam_app`, set it as `origin`, and pushed `main`. No project files changed except this entry.
+  Worked: Partly. The push worked. Turning on GitHub Pages through the API was blocked because it needed the saved GitHub token, so the user turns it on under Settings → Pages.
