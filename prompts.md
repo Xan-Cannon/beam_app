@@ -31,3 +31,7 @@
 - Asked: Help make it live; fix it.
   Changed: Found the empty public repo `Xan-Cannon/beam_app`, set it as `origin`, and pushed `main`. No project files changed except this entry.
   Worked: Partly. The push worked. Turning on GitHub Pages through the API was blocked because it needed the saved GitHub token, so the user turns it on under Settings → Pages.
+
+- Asked: Check whether the site is live (after turning on GitHub Pages).
+  Changed: No project files changed except this entry. Waited for the first Pages deploy to finish, then checked the live site.
+  Worked: Yes. https://xan-cannon.github.io/beam_app/ returns 200 and matches the local `index.html` byte for byte. In headless Chrome it loads the W12x26 example (PASSES ALL CHECKS) and shows 6 of 6 validation cases passing.
